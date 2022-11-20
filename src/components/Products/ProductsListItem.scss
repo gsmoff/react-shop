@@ -1,0 +1,40 @@
+.btn-wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.product {
+    h4 {
+        font-size: 23px;
+    }
+    .product-description {
+        font-size: 19px;
+    }
+
+    .product-price {
+        font-size: 22px;
+    }
+
+    .product-features {
+        font-size: 18px;
+        span {
+            font-weight: bold;
+        }
+    }
+}
+.product-image {
+        img {
+            width: 230px;
+            height: auto;
+        }
+        
+        text-align: center;
+    }
+.product-quantity {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    input {
+        text-align: center;
+    }
+}
